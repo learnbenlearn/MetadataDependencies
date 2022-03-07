@@ -1,0 +1,31 @@
+{
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true
+        },
+        {
+            "path": "ToolingAPIWrapper",
+            "package": ".\\force-app\\",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        },
+        {
+            "path": ".\\force-app",
+            "package": "ToolingAPIWrapper",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
+        }
+    ],
+    "name": "ToolingWrapper",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        ".\\force-app\\": "0Ho8c000000fxwRCAQ",
+        "ToolingAPIWrapper": "0Ho8c000000fxwWCAQ",
+        "ToolingAPIWrapper@0.1.0-1": "04t8c000000yZo2AAE"
+    }
+}
